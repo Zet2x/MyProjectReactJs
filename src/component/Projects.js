@@ -44,7 +44,7 @@ export const Projects = () => {
                 <Row>
                     <Col>
                         <h2>Проекты</h2>
-                        <p>Loremdsjhgfgslafdafdafdsvhasjbadshf</p>
+                        <p>Ниже предоставлены мои работы в виде скриншота и краткого описания проекта.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey='first' className="">
                             <Nav variant="pills" defaultActiveKey="first" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>

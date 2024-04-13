@@ -8,7 +8,7 @@ export const Banner = () => {
     const toRotate = ['Веб разработчик', 'Веб дизайнер', "UX/UI Дизайнер"];
     const [text, setText] = useState('')
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 2000;
+    const period = 1200;
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -43,8 +43,8 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Добро пожаловать в моё портфолио!</span>
-                        <h1>{`Привет, я Дима, `}<span className="wrap">{text}</span></h1>
-                        <p>Обо мне...</p>
+                        <h1>{`Привет! Я Дима, `}<span className="wrap">{text}</span></h1>
+                        <p>Я веб-разработчик, люблю делать крупные проекта используя React JS, Vue JS, TypeScript, также не оставляю в стороне разработку телеграмм ботов на Python или JavaScript. Этот сайт является одним из нескольких моих проектов на React JS + Bootstrap.</p>
                         <button onClick={() => console.log('connect')}>Подключись!</button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
